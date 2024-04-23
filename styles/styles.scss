@@ -6,7 +6,7 @@
     width: 100%;
     height: $navbar_height;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     z-index: 1;
     background-color: transparent;
 }
@@ -24,7 +24,7 @@
     font-size: 16px;
     margin-right: 1rem;
     padding-top: 2rem;
-    color: #ffffff;
+    color: $color_secondary;
         text-shadow: 
         -1px -1px 0 #000,  
          1px -1px 0 #000,
@@ -40,12 +40,16 @@
 
 .navbar-links li a {
     text-decoration: none;
-    color: var(--text-color); /* Set the default text color */
-    transition: color 0.3s; /* Add transition effect for smooth color change */
+    transition: color 0.3s; 
 }
 
-/* Add hover effect for navbar links */
 .navbar-links li a:hover {
-    color: #392467; /* Change text color on hover */
-    text-decoration: underline; /* Underline on hover */
+    color: $color_background; /* Change text color on hover */
+}
+
+footer {
+    background-color: $color_font_primary;
+    width: 100%;
+    height: 170px;
+    color: $color_secondary;
 }

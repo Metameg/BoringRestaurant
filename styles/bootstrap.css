@@ -192,8 +192,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* margin: 0; */
-  /* overflow-x: hidden; */
+  margin: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -360,7 +359,7 @@ sup {
 }
 
 a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  color: rgba(var(--color_secondary), var(--bs-link-opacity, 1));
   text-decoration: underline;
 }
 a:hover {
