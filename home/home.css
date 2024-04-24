@@ -6,6 +6,14 @@
   font-family: "Quicksand";
   src: url("../assets/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
 }
+h2 {
+  font-family: "Pacifico", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
 #hero_carousel {
   width: 100%;
   height: calc(100vh - 90px);

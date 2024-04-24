@@ -9,6 +9,14 @@
     src: url('../assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype'); 
 }
 
+h2 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
 @mixin index_section {
     .container {
         padding: 1.2rem 0;
