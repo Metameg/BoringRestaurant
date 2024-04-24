@@ -158,6 +158,11 @@
     .menu_item_container:nth-child(odd) {
         background-color: $color_primary; 
     }
+
+    .price {
+        text-align: right;
+        margin-right: 5%;
+    }
 }
 
 .menu_items__3 {
@@ -195,6 +200,11 @@
     }
     .menu_item_container:nth-child(odd) {
         background-color: $color_primary; 
+    }
+
+    .price {
+        text-align: right;
+        margin-right: 5%;
     }
 }
 
